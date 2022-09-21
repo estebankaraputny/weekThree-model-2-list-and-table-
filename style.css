@@ -1,0 +1,201 @@
+/*Normalize*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Short Stack', cursive;
+}
+
+/*Inicio de la portada*/
+
+.portada{
+    max-height: 20%;
+}
+
+.title-page{
+    font-size: 30px;
+    padding-left: 10%;
+}
+
+.portada-navegation{
+    position: absolute;
+    top: 7%;
+    right: 12%;
+}
+
+.portada-navegation-ul{
+    display: flex;
+    list-style: none;
+}
+
+.portada-navegation-ul-li{
+    margin: 5px;
+    color: white;
+}
+
+
+.portada-navegation-ul-li a{
+    background-color: rgb(18, 62, 207);
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    border: solid 1px black;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.418);
+    text-decoration: none;
+}
+
+.portada-navegation-ul-li-green{
+    margin: 5px;
+}
+
+.portada-navegation-ul-li-green a{
+    background-color: greenyellow;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    text-align: center;
+    border: solid 1px black;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.418);
+    text-decoration: none;
+}
+.portada-image{
+    text-align: center;
+}
+
+.portada-image-img{
+    width: 80%;
+    max-height: 185px;
+    object-fit: cover;
+    object-position: 0 80%;
+}
+
+/* .portada-title{
+    display:flex;
+} */
+
+.portada-title{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-bottom: 3%;
+    
+}
+
+.portda-title-position{
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+/* FIN PORTADA
+
+INICIO LOGO/SECTION */
+
+ .section{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.section-logo {
+    flex: 20%;
+    text-align: center;
+}
+
+.section-logo-image {
+    width: 150px;
+    height: 150px;
+}
+
+.section-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 60%;
+}
+
+.section-information > h2 {
+    font-size: 17px;
+}
+.section-information > p {
+    text-indent: 15px;
+    margin-bottom: 10px;
+    width: 85%;
+}
+
+
+/* MODIFICIACON EN CONTACT
+
+El codigo es compartido con todas las paginas por que tienen las mismas propiedades, excepto por esta modificacion
+en contact.html*/
+
+.section-contact{
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+}
+
+.section-contact-mail {
+    margin-bottom: 20px;
+}
+
+.section-contact-link{
+    text-decoration: underline;
+    text-decoration-color:black ;
+}
+
+/* INICIA PAGINA RULES */
+
+.section__rules{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.container__rules{
+    width: 80%;
+    /* margin-left: 10%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.info__one{
+    padding: 25px 0;
+    list-style-position: inside;
+}
+
+.info__one--subtitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.subtitle__xThree{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.list__style--padding{
+    padding-top: 15px;
+}
+
+.subtitle__bold{
+    font-weight: bold;
+}
+
+
+.subtitle__size{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.info__one--parrafo{
+    text-indent: 35px;
+}
+
+
+.list__container--two{
+    padding-left: 8%;
+    list-style-type: circle;
+}
