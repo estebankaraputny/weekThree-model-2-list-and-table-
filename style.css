@@ -199,3 +199,50 @@ en contact.html*/
     padding-left: 8%;
     list-style-type: circle;
 }
+
+/* INICIO PAGINA TABLE  */
+
+.subtitle__table{
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom:20px ;
+}
+
+.parrafo__table--line{
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+table {
+    text-align: left;
+    width: 50%;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+.container__info--extra{
+    width: 80%;
+}
+
+.margin__division{
+    margin-top: 50px;
+}
+
+.span__bold{
+    font-weight: bold;
+}
+
+.parrafo__info--add{
+    padding: 10px 0;
+}
+
+.display__cambio{
+    display: flex;
+    justify-content: space-between;
+}
